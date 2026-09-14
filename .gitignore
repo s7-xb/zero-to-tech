@@ -4,4 +4,5 @@
 .DS_Store
 Thumbs.db
 # node相关（如果后面用node）
-node_modules/
+node_modules
+dist
