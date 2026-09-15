@@ -1,8 +1,19 @@
-# 日志文件
-*.log
-# 操作系统缓存
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+
+# production
+build/
+dist/
+
+# editor
+.vscode/*
+!.vscode/extensions.json
+
+# misc
 .DS_Store
-Thumbs.db
-# node相关（如果后面用node）
-node_modules
-dist
+*.log
+.env*
